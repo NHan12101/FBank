@@ -1,6 +1,6 @@
 package user
 
-import "../../../../fbank_server/internal/modules/user/time"
+import "time"
 
 type UserProfile struct {
 	ID          uint       `gorm:"primaryKey" json:"id"`

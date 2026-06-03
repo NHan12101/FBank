@@ -1,6 +1,6 @@
 package transaction
 
-import "../../../../fbank_server/internal/modules/transaction/time"
+import "time"
 
 type Transaction struct {
 	ID                uint      `gorm:"primaryKey" json:"id"`
