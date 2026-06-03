@@ -1,6 +1,6 @@
 package auth
 
-import "../../../../fbank_server/internal/modules/auth/time"
+import "time"
 
 type User struct {
 	ID             uint      `gorm:"primaryKey" json:"id"`

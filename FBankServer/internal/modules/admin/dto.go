@@ -1,6 +1,6 @@
 package admin
 
-import "../../../../fbank_server/internal/modules/admin/time"
+import "time"
 
 type AdminUserResponse struct {
 	ID             uint      `json:"id"`

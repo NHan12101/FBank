@@ -1,6 +1,6 @@
 package account
 
-import "../../../../fbank_server/internal/modules/account/time"
+import "time"
 
 type Account struct {
 	ID            uint      `gorm:"primaryKey" json:"id"`
